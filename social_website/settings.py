@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ["my_site.com", "localhost", "127.0.0.1"]
 
 INSTALLED_APPS = [
     "account.apps.AccountConfig",
+    "images.apps.ImagesConfig",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
