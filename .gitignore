@@ -8,4 +8,4 @@ db.sqlite3
 cert.crt
 cert.key
 
-media/image/*
+media/images/*
