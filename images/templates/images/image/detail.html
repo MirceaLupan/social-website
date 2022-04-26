@@ -58,8 +58,7 @@
 
                 // update total likes
                 var previous_likes = parseInt($('span.count .total').text());
-                $('span.count .total').text(previous_action == 'like' ?
-                previous_likes + 1 : previous_likes - 1);
+                $('span.count .total').text(previous_action == 'like' ? previous_likes + 1 : previous_likes - 1);
             }
         }
         );
